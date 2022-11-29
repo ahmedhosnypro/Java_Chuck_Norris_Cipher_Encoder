@@ -9,13 +9,15 @@ public class Main {
         System.out.println("Input string:");
 
         String input = scanner.nextLine();
-        System.out.println();
 
-        StringBuilder sb = new StringBuilder();
+        System.out.println("""
+                The result:
+                """);
+
+
         for (var c : input.toCharArray()) {
-            sb.append(c).append(" ");
+            System.out.print(c + " = ");
+            System.out.print(String.format("%7s%n", Integer.toBinaryString(c)).replace(" ", "0"));
         }
-
-        System.out.println(sb.toString());
     }
 }
