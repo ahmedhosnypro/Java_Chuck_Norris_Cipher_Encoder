@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/803401/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Tue, 29 Nov 2022 05:43:03 UTC"
+update_date: "Mon, 05 Dec 2022 09:01:36 UTC"
 stages:
 - id: 1536
   step: 23024
@@ -16,7 +16,7 @@ stages:
   is_completed: true
 - id: 1539
   step: 23027
-  is_completed: false
+  is_completed: true
 - id: 1540
   step: 23028
   is_completed: false
@@ -124,10 +124,10 @@ topics:
     theory_id: 3552
   - title: Defining classes
     theory_id: 3618
-  - title: Constructor
-    theory_id: 3535
   - title: Instance methods
     theory_id: 3495
+  - title: Constructor
+    theory_id: 3535
   - title: Access modifiers
     theory_id: 3589
   - title: Getters and setters
